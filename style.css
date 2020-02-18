@@ -2,9 +2,10 @@
 
 
 
- .container {
- 	padding: 60px;
-  
+ .container-fluid {
+  transform: scale(2);
+ 	padding: 160px;
+  max-width: 600px;
 
 
  }
@@ -21,6 +22,10 @@
    margin-right: auto;
    margin-top: auto;
    margin-bottom: auto;
+  
+  
+
+}
  }
 
  #stack{
