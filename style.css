@@ -2,9 +2,9 @@
 
 
 
- .container-fluid {
- 	max-width: 600px;
- 	max-height: 450px;
+ .container {
+ 	width: 600px;
+ 	height: 450px;
  	padding: 60px;
   
 
