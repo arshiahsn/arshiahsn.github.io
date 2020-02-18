@@ -38,3 +38,78 @@
 #stack{
   margin-left: 90px;
 }
+
+
+@media (min-width: 300px) and (max-width: 599px) {
+  html {
+    height: 100vh;
+  }
+  .calculator {
+    height: 60vh;
+    overflow: hidden;
+  }
+
+  .row {
+    height: 10vh;
+  }
+
+  #display #stack {
+    width: 82vw;
+    height: 10vh;
+    font-size: 7vh;
+    box-shadow: 0px 5px 10px #222222;
+  }
+
+  .btn {
+    box-shadow: 0px 5px 10px #222222;
+  }
+
+}
+
+@media (min-width: 600px) and (min-height: 442px) {
+  .calculator {
+    width: 600px;
+    height: 442px;
+    margin: 0 auto;
+  }
+
+  #display #stack {
+    width: 525px;
+    height: 74px;
+    font-size: 40px;
+    box-shadow: 0px 5px 10px #222222;
+    margin-right: 5px;
+  }
+
+  .btn {
+    box-shadow: 0px 5px 10px #222222;
+  }
+
+}
+
+@media screen and (orientation: landscape) and (max-height: 441px) {
+  html {
+    height: 100vh;
+  }
+  .calculator {
+    height: 90vh;
+    overflow: hidden;
+  }
+
+  .row {
+    height: 15vh;
+  }
+
+  #display #stack {
+    width: 82vw;
+    height: 15vh;
+    font-size: 7vh;
+    box-shadow: 0px 5px 10px #222222;
+  }
+
+  .btn {
+    box-shadow: 0px 5px 10px #222222;
+  }
+
+}
+
