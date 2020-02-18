@@ -1,55 +1,114 @@
-.container {
-  background-color: grey;
-  border-spacing: 5px;
-  border: 5px solid black;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
+/* For desktop: */
 
-#stack {
-  background-color: grey;
-  border: none;
-  text-align: right;
-  padding: 10px 10px;
-}
 
-#display {
-  text-align: right;
-  background-color: lightgrey;
-  border-radius: 0px;
-}
+ .container {
+ 	width: 600px;
+ 	height: 450px;
+   margin: 3% auto;
+ 	padding: 20px;
+ 	border-radius: 6px;
+ 	border:solid 1px;
+ 	border-color: grey;
+ 	justify-content: center;
+ 	align-content: center;
+ }
+ .nopadding {
+    padding: 2px !important;
+    margin: 0 !important;
+   background-color: grey;
+   border-spacing: 5px;
+   border: 5px solid black;
+   width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: auto;
+   margin-bottom: auto;
+ }
 
-input {
-  font-weight: bold;
-  font-size-adjust: none;
-  font-size: 24pt;
-  background-color: lightblue;
-  text-align: center;
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 15px 15px;
-  width: 100%;
-}
+ #stack{
+   margin-left: 90px;
+ #stack {
+   background-color: grey;
+   border: none;
+   text-align: right;
+   padding: 10px 10px;
+ }
 
-.ce {
-  padding: 15px 0px;
-}
 
-.ans {
-  font-size: 20pt;
-  padding: 17px 0px;
-  
-}
+ @media (min-width: 300px) and (max-width: 599px) {
+   html {
+     height: 100vh;
+   }
+   .container {
+     height: 60vh;
+     overflow: hidden;
+   }
 
-input:hover {
-  cursor: pointer;
-}
+   .row {
+     height: 10vh;
+   }
+
+   #display #stack {
+     width: 82vw;
+     height: 10vh;
+     font-size: 7vh;
+     box-shadow: 0px 5px 10px #222222;
+   }
+
+   .btn {
+     box-shadow: 0px 5px 10px #222222;
+   }
+
+ #display {
+   text-align: right;
+   background-color: lightgrey;
+   border-radius: 0px;
+ }
+
+ @media (min-width: 600px) and (min-height: 442px) {
+   .container {
+     width: 600px;
+     height: 442px;
+     margin: 0 auto;
+   }
+ input {
+   font-weight: bold;
+   font-size-adjust: none;
+   font-size: 24pt;
+   background-color: lightblue;
+   text-align: center;
+   border: 1px solid black;
+   border-radius: 20px;
+   padding: 15px 15px;
+   width: 100%;
+ }
+
+   #display #stack {
+     width: 525px;
+     height: 74px;
+     font-size: 40px;
+     box-shadow: 0px 5px 10px #222222;
+     margin-right: 5px;
+   }
+ .ce {
+   padding: 15px 0px;
+ }
+
+   .btn {
+     box-shadow: 0px 5px 10px #222222;
+   }
+ .ans {
+   font-size: 20pt;
+   padding: 17px 0px;
+
+ }
+
+ input:hover {
+   cursor: pointer;
+ }
 
 @media screen and (max-width:480px){
   .container {
     width: 100%;
   }
-}
+ }
