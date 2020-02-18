@@ -2,9 +2,9 @@
 
 
 
- .container-fluid {
-  transform: scale(2);
- 	padding: 160px;
+.container-fluid {
+  transform: scale(4);
+ 	padding: 460px;
   max-width: 600px;
 
 
