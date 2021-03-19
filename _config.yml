@@ -15,10 +15,7 @@ author: Arshia Hosseini
 
 navbar-links:
   About Me: "Hello! I'm Arshia, a software developer with an M.Sc. in Computer Science from the University of Calgary. My research has been focused on computer networks. I have have experience with Internet of Things, Software Defined Networks, and Web Development."
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+
 
 # --- Logo --- #
 
