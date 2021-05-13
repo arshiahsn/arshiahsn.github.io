@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: A Computer Scientist
+title: A Web Developer
 
 # Your name to show in the footer
 author: Arshia Hosseini
@@ -14,7 +14,7 @@ author: Arshia Hosseini
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "Hello! I'm Arshia, a software developer with an M.Sc. in Computer Science from the University of Calgary. My research has been focused on computer networks. I have have experience with Internet of Things, Software Defined Networks, and Web Development."
+  About Me: "Hello! I'm Arshia, a web developer with an M.Sc. in Computer Science from the University of Calgary."
 
 
 # --- Logo --- #
@@ -61,7 +61,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: Arshia, A Software Developer
+rss-description: Arshia, A Web Developer
 
 # --- General options --- #
 
